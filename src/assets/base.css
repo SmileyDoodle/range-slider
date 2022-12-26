@@ -4,22 +4,36 @@ html {
   overflow-y: hidden !important;
 }
 
-body {
+.main-wrapper {
   background: #262529;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
   font-family: 'Source Sans Pro', sans-serif;
+  transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+}
+
+.main-wrapper-green {
+  background: #227C70;
+  transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+}
+
+.main-wrapper-red {
+  background: #EA346F;
+  transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
 }
 
 .riddle-wrapper {
-  min-width: 450px;
-  max-width: 500px;
+  min-width: 500px;
+  max-width: 550px;
+  height: 170px;
   color: #ffffff;
   text-align: center;
-  padding: 30px;
+  padding-bottom: 40px;
+  font-size: 1.3rem;
 }
 
 .slider-wrapper {
@@ -32,6 +46,13 @@ body {
   text-align: center;
 }
 
+.wrong-wrapper {
+  margin-top: 10px;
+  height: 30px;
+  color: #ffffff;
+  transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+}
+
 .amount {
   color: #FFC700;
   font-weight: bold;
@@ -41,8 +62,6 @@ body {
 .dollar-sign {
   font-size: 5.5rem;
 }
-
-.dollars {}
 
 input[type=range] {
   -webkit-appearance: none;
