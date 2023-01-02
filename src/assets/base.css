@@ -27,22 +27,22 @@ html {
 }
 
 .riddle-wrapper {
-  min-width: 500px;
-  max-width: 550px;
-  height: 170px;
+  min-width: 300px;
+  max-width: 350px;
+  height: 190px;
   color: #ffffff;
   text-align: center;
-  padding-bottom: 40px;
-  font-size: 1.3rem;
+  padding-bottom: 20px;
+  font-size: 1rem;
 }
 
 .slider-wrapper {
   background: #262529;
   box-shadow: 0px 0px 250px #000000;
-  min-width: 450px;
-  max-width: 500px;
+  min-width: 280px;
+  max-width: 320px;
   border-radius: 20px;
-  padding: 60px 80px;
+  padding: 30px 40px;
   text-align: center;
 }
 
@@ -118,4 +118,20 @@ input[type=range]::-moz-range-progress {
 
 .btn-submit:hover {
   color: #FFC700;
+}
+
+@media only screen and (min-width: 1024px) {
+.riddle-wrapper {
+    min-width: 500px;
+    max-width: 550px;
+    height: 170px;
+    padding-bottom: 40px;
+    font-size: 1.3rem;
+  }
+
+  .slider-wrapper {
+    min-width: 450px;
+    max-width: 500px;
+    padding: 60px 80px;
+  }
 }
