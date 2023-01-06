@@ -44,27 +44,27 @@ export default defineComponent({
   },
   data() {
     return {
-      price: 15 as Number,
-      index: 0 as Number,
+      price: 15 as number,
+      index: 0 as number,
       isShow: true as Boolean,
       isWrong: false as Boolean,
       riddles: [
         {
           question:
             "A new clothing store has a unique method of pricing items. A vest costs $20, a tie costs $15, a blouse costs $30, and underwear costs $45. How much would pants cost?" as String,
-          answer: 25 as Number,
+          answer: 25 as number,
           hint: "The pricing method charges $5 for each letter needed to spell the item." as String,
         },
         {
           question:
             "A phone and case cost $110. If the phone costs $100 more than the case, how much does the case cost?" as String,
-          answer: 5 as Number,
+          answer: 5 as number,
           hint: "" as String,
         },
         {
           question:
             "Aino has $29.00 dollars. She bought 4 coloring books that cost $3.00 each, and 4 boxes of crayons that cost $2.00 each. She spent the rest of her money on markers. How much money did Aino spend on markers?" as String,
-          answer: 9 as Number,
+          answer: 9 as number,
           hint: "" as String,
         },
       ],
