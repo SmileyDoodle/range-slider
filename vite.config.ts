@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/ranger-slider",
+  base: "/range-slider",
   plugins: [vue()],
   resolve: {
     alias: {
